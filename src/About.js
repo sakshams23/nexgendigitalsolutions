@@ -36,32 +36,23 @@ const About = () => {
               </motion.h3>
               <motion.p variants={fadeIn("up", 0.2)} initial="hidden" whileInView={"show"} viewport={{ once: false, amount: 0.2 }} className="leading-relaxed mb-3 text-sm  font-normal font-dosis text-justify  md:leading-relaxed md:mb-6 md:text-base md:font-normal md:font-dosis md:text-justify">
                 We have experienced professional team of developers are there to
-                fulfill your requirements of web design, web development and digital
-                marketing. We provide services like Website Designing, Web
-                Development, Web Redesigning, Mobile App Development, and Digital
-                Marketing including SEO Services, SMO Services, PPC Services, Bulk
-                Email Services, Bulk SMS Services, WhatsApp Marketing Services and
-                various web services all over the world. Websites and Mobile App are
-                turning into a daily need for increasing business in India. Various
+                fulfill your requirements of digital
+                marketing. We provide services like SMS Services, RCS Services, Business WhatsApp API, Email Services, Digital Marketing Services, SEO Services, Voice Call services, IVR Services and
+                various web services all over the world. Various
                 entrepreneurs and business man are showing interest in India.
               </motion.p>
-
-
-
 
               {/* Services List */}
               <div className="space-y-1 md:space-y-2 mb-8">
                 {[
-                  "Bulk SMS Services",
-                  "Bulk Email Services",
-                  "Whatsapp Business API Services",
-                  "IVR Services",
-                  "Voice Call Services",
+                  "SMS Services",
+                  "RCS Services",
+                  "Business WhatsApp API",
+                  "Email Services",
                   "Digital Marketing Services",
                   "SEO Services",
-                  "Transactional SMS Services",
-                  "RCS Services",
-                  "SMM Services",
+                  "Voice Call Services",
+                  "IVR Services",
                 ].map((item, index) => (
                   <motion.div variants={fadeIn("up", 0.2)} initial="hidden" whileInView={"show"} viewport={{ once: false, amount: 0.2 }} key={index} className="flex items-start">
                     <AiOutlineCheckCircle className="text-blue-800 mt-1 mr-2" />
@@ -78,3 +69,4 @@ const About = () => {
 };
 
 export default About;
+
