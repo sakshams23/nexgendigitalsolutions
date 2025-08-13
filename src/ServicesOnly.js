@@ -13,12 +13,12 @@ import ser12 from './assets/12.png'
 import { motion } from 'framer-motion';
 import { fadeIn } from './Varients'
 const services = [
+    
     {
-        name: "Transactional SMS Services",
-        description: "Transactional SMS refers to automated text messages sent by businesses or organizations to provide customers with important information. These are non-promotional messages, strictly meant for informational purposes only.",
-        page: "transactionalsms",
-        image: ser1,
-
+        name: "SMS Services",
+        description: "Reach your audience instantly with our high-speed, reliable bulk SMS solutions. Whether it’s for promotions, alerts, reminders, or updates, we help you deliver your message directly to your customers’ phones with maximum impact.",
+        page: "bulksms",
+        image: ser4,
     },
     {
         name: "RCS Services",
@@ -27,34 +27,28 @@ const services = [
         image: ser2,
     },
     {
-        name: "SMM Services",
-        description: "At Nexgen Digital Solutions, we help you use it to drive real business results. Our Social Media Marketing (SMM) services are designed to build awareness, grow engagement, and increase conversions across all major platforms.",
-        page: "smmservices",
-        image: ser3,
-    },
-    {
-        name: "Bulk SMS Services",
-        description: "Reach your audience instantly with our high-speed, reliable bulk SMS solutions. Whether it’s for promotions, alerts, reminders, or updates, we help you deliver your message directly to your customers’ phones with maximum impact.",
-        page: "bulksms",
-        image: ser4,
-    },
-    {
-        name: "Bulk Email Services",
-        description: "Email services refer to professional platforms or tools used to send bulk emails, transactional alerts, promotions, reminders, newsletters, and automated sequences for marketing, engagement, or customer support.",
-        page: "bulkemail",
-        image: ser7,
-    },
-    {
-        name: "WhatsApp Business API Services",
+        name: "Business WhatsApp API",
         description: "The WhatsApp Business API Services is designed for medium and large businesses to communicate with their customers at scale using automated, secure, and verified messaging on WhatsApp.",
         page: "apiwhatsapp",
         image: ser6,
     },
     {
-        name: "IVR Services",
-        description: "IVR (Interactive Voice Response) is a cloud-based telephony system that interacts with callers using voice menus and keypad input. It helps businesses manage incoming calls and deliver a personalized caller experience.",
-        page: "ivr",
-        image: ser10,
+        name: "Email Services",
+        description: "Email services refer to professional platforms or tools used to send bulk emails, transactional alerts, promotions, reminders, newsletters, and automated sequences for marketing, engagement, or customer support.",
+        page: "bulkemail",
+        image: ser7,
+    },
+    {
+        name: "Digital Marketing Services",
+        description: "We help you craft and execute a result-driven digital marketing strategy tailored to your unique business goals. Our approach combines the latest industry trends, advanced tools, and in-depth analytics to maximize your online presence.",
+        page: "digitalmarketing",
+        image: ser12,
+    },
+    {
+        name: "SEO Services",
+        description: "At Nexgen Digital Solutions, our expert SEO services are designed to boost your website’s visibility, attract high-quality traffic, and increase conversions — all through proven, white-hat techniques that align with Google’s algorithms.",
+        page: "seo",
+        image: ser5,
     },
 
     {
@@ -64,17 +58,13 @@ const services = [
         image: ser11,
     },
     {
-        name: "SEO Services",
-        description: "At Nexgen Digital Solutions, our expert SEO services are designed to boost your website’s visibility, attract high-quality traffic, and increase conversions — all through proven, white-hat techniques that align with Google’s algorithms.",
-        page: "seo",
-        image: ser5,
+        name: "IVR Services",
+        description: "IVR (Interactive Voice Response) is a cloud-based telephony system that interacts with callers using voice menus and keypad input. It helps businesses manage incoming calls and deliver a personalized caller experience.",
+        page: "ivr",
+        image: ser10,
     },
-    {
-        name: "Digital Marketing",
-        description: "We help you craft and execute a result-driven digital marketing strategy tailored to your unique business goals. Our approach combines the latest industry trends, advanced tools, and in-depth analytics to maximize your online presence.",
-        page: "digitalmarketing",
-        image: ser12,
-    }
+    
+    
 ];
 
 
@@ -145,3 +135,4 @@ const ServicesOnly = () => {
 };
 
 export default ServicesOnly;
+
