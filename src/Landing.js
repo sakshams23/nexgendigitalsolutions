@@ -1,5 +1,5 @@
 import React from 'react';
-import vid from './assets/Landing3.mp4';
+import vid from './assets/Landing1.mp4';
 
 import { motion } from 'framer-motion';
 import { fadeIn } from './Varients';
@@ -24,3 +24,4 @@ const Landing = () => {
   );
 };
 export default Landing;
+
