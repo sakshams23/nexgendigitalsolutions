@@ -150,7 +150,7 @@ export function Terms({
           <h2 className="text-lg font-medium">12. Contact Us</h2>
           <p>
             For questions or concerns regarding these Terms, please contact: 
-            Email: abhishek@nexgendigitalsolution.com <br/> Phone: +91-9560321883 <br/>  Website: www.nexgendigitalsolution.com
+           <br/> Email: abhishek@nexgendigitalsolution.com <br/> Phone: +91-9560321883 <br/>  Website: www.nexgendigitalsolution.com
 
           </p>
         </section>
@@ -164,4 +164,5 @@ export function Terms({
     </section>
   );
 }
+
 
