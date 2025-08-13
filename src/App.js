@@ -81,7 +81,7 @@ function App() {
           <Route path="/seo" element={<SEO />} />
           <Route path="/digitalmarketing" element={<DigitalMarketing />} />
           
-          <Route path="/privacy" element={<Privacy />} />
+          <Route path="/terms" element={<Privacy />} />
         </Routes>
 
         <Footer />
