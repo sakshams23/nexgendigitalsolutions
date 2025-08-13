@@ -1,7 +1,6 @@
 import React from 'react';
 import Landing from './Landing';
 import About from './About';
-import Marque from './Marque';
 import ServicesOnly from './ServicesOnly';
 import { motion } from "framer-motion";
 import { useState } from "react";
@@ -73,7 +72,6 @@ const Home = () => {
 
             <About />
             <ServicesOnly />
-            <Marque />
             <motion.hr
                 variants={fadeIn("up", 0.2)}
                 initial="hidden"
@@ -163,3 +161,4 @@ const Home = () => {
 };
 
 export default Home;
+
