@@ -154,7 +154,14 @@ export function Terms({
 
           </p>
         </section>
+              <section>
+          <h2 className="text-lg font-medium">Consent</h2>
+          <p>
+            By accessing or using our website and services, you confirm that you have read, understood, and agreed to be bound by these Terms & Conditions. If you do not agree, please do not use our website.
+          </p>
+        </section>
       </article>
     </section>
   );
 }
+
