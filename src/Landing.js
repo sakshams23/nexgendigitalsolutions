@@ -12,7 +12,7 @@ const Landing = () => {
     className="relative w-100 h-screen overflow-hidden z-1">
 
       <motion.video variants={fadeIn("up", 0.2)} initial="hidden" whileInView={"show"} viewport={{ once: false, amount: 0.2 }}
-        className="w-[80%] mx-auto  my-20"
+        className="w-[80%] mx-auto  my-16"
         src={vid}
         autoPlay
         muted
@@ -24,5 +24,6 @@ const Landing = () => {
   );
 };
 export default Landing;
+
 
 
