@@ -76,8 +76,7 @@ const Footer = () => {
         <motion.div variants={fadeIn("up", 0.2)} initial="hidden" whileInView={"show"} viewport={{ once: false, amount: 0.2 }} className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center text-xs text-gray-500">
           <p>© {new Date().getFullYear()} Nexgen Digital Solutions. All rights reserved.</p>
           <div className="flex space-x-4 mt-3 md:mt-0">
-            <a href="/privacy" className="hover:text-gray-300">Privacy</a>
-            <a href="/terms" className="hover:text-gray-300">Terms</a>
+            <a href="/privacy" className="hover:text-gray-300">Privacy Policy</a>
           </div>
         </motion.div>
       </div>
@@ -86,3 +85,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
