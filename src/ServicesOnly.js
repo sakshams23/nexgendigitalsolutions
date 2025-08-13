@@ -80,7 +80,7 @@ const ServicesOnly = () => {
             <hr className=" mx-3 border-t border-gray-700 max-w-6xl mx-auto mt-6   md:w-9/10 md:border-t md:border-gray-700 md:max-w-6xl md:mx-auto md:mt-6" />
             <motion.div variants={fadeIn("up", 0.2)} initial="hidden" whileInView={"show"} viewport={{ once: false, amount: 0.2 }} className="max-w-6xl mx-auto  mx-3  text-sm flex justify-between items-center   md:max-w-6xl md:mx-auto md:mt-1  md:text-lg md:flex md:justify-between md:items-center">
                 <span className="font-cormorant font-normal">Our Services</span>
-                <span>01</span>
+                <span>02</span>
             </motion.div>
             <div>
                 <div className="px-8 max-w-5xl mx-auto text-center md:max-w-5xl md:mx-auto md:text-center">
@@ -135,4 +135,5 @@ const ServicesOnly = () => {
 };
 
 export default ServicesOnly;
+
 
