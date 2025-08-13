@@ -4,7 +4,7 @@ import Home from './Home';
 import Services from './Services';
 import Footer from './Footer';
 import Contact from './Contact';
-import {Privacy} from './Privacy';
+import {Terms} from './Terms';
 import TransactionalSMS from './servicesPages/TransactionalSMS';
 import WhatsAppAPI from './servicesPages/WhatsAppAPI';
 import BulkEmail from './servicesPages/BulkEmail';
@@ -81,7 +81,7 @@ function App() {
           <Route path="/seo" element={<SEO />} />
           <Route path="/digitalmarketing" element={<DigitalMarketing />} />
           
-          <Route path="/terms" element={<Privacy />} />
+          <Route path="/terms" element={<Terms />} />
         </Routes>
 
         <Footer />
