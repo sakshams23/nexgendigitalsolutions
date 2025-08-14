@@ -77,7 +77,7 @@ const Footer = () => {
           <p>© {new Date().getFullYear()} Nexgen Digital Solutions. All rights reserved.</p>
           <div className="flex space-x-4 mt-3 md:mt-0">
             <a href="/terms" className="hover:text-gray-300">Terms and Conditions.</a>
-           <a href="/terms" className="hover:text-gray-300">Privacy and Policy.</a>
+           <a href="/privacy" className="hover:text-gray-300">Privacy and Policy.</a>
           </div>
         </motion.div>
       </div>
@@ -86,6 +86,7 @@ const Footer = () => {
 };
 
 export default Footer;
+
 
 
 
