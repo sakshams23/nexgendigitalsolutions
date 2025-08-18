@@ -160,7 +160,7 @@ export function Privacy({
         {/* Consent */}
         <footer className="pt-4 text-sm text-gray-500">
           <p>
-            By using our website, you hereby consent to our Privacy Policy and agree to its terms.
+            By using our website, you hereby consent to our <a href="/privacy">Privacy Policy</a>  and agree to its terms.
             If you do not agree with any part of this policy, please refrain from using our website
             and services.
           </p>
@@ -169,4 +169,5 @@ export function Privacy({
     </section>
   );
 }
+
 
