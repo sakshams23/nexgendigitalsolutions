@@ -146,23 +146,25 @@ export function Terms({
           </p>
         </section>
 
-        <section>
-          <h2 className="text-lg font-medium">12. Contact Us</h2>
-          <p>
-            For questions or concerns regarding these Terms, please contact: 
-           <br/> Email: abhishek@nexgendigitalsolution.com <br/> Phone: +91-9560321883 <br/>  Website: www.nexgendigitalsolution.com
+       <section>
+          <h2 className="text-lg font-medium">11. Contact Us</h2>
+          <ul className="list-none">
+            <li>📧 Email: abhishek@nexgendigitalsolution.com</li>
+            <li>📲 Phone: +91-9560321883</li>
+            <li>🌐 Website: {website}</li>
+          </ul>
+        </section>
 
-          </p>
-        </section>
-              <section>
-          <h2 className="text-lg font-medium">Consent</h2>
+        {/* Consent */}
+        <footer className="pt-4 text-sm text-gray-500">
           <p>
-            By accessing or using our website and services, you confirm that you have read, understood, and agreed to be bound by these Terms & Conditions. If you do not agree, please do not use our website.
+            By accessing or using our website and services, you confirm that you have read, understood, and agreed to be bound by these <a href="/privacy">Terms & Conditions.</a> If you do not agree, please do not use our website.
           </p>
-        </section>
+        </footer>
       </article>
     </section>
   );
 }
+
 
 
