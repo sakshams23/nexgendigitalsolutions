@@ -37,7 +37,7 @@ const Footer = () => {
           <h4 className="text-lg font-medium text-white">Contact</h4>
           <div className="flex items-center text-sm text-gray-300 space-x-3">
             <FaPhoneAlt className="text-sm" />
-            <a href="tel:+919560321883" className="hover:text-white">+91 9560321883</a>
+            <a href="tel:+917042609078" className="hover:text-white">+91 7042609078</a>
           </div>
 
           <div className="flex items-center text-sm text-gray-300 space-x-3">
@@ -86,6 +86,7 @@ const Footer = () => {
 };
 
 export default Footer;
+
 
 
 
