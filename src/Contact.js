@@ -33,7 +33,7 @@ export default function Contact() {
               <FaPhoneAlt className="text-[#16d0d8] text-lg flex-shrink-0" />
               <div>
                 <h4 className="text-base font-medium">Phone</h4>
-                <p className="text-sm mt-1">+91 9560321883</p>
+                <p className="text-sm mt-1">+91 7042609078</p>
               </div>
             </div>
 
@@ -134,3 +134,4 @@ export default function Contact() {
     </div>
   );
 }
+
